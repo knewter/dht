@@ -58,7 +58,7 @@ The implementation supports 3 high-level commands, which together with two low-l
 
 	application:ensure_all_started(dht)
 	
-Then, in order to make the DHT part of swarm, you must know at least one node in the swarm. How to obtain the nodes it outside of the scope of the DHT application currently. One you know about a couple of nodes, you can ping them to insert them into the DHT routing table:
+Then, in order to make the DHT part of swarm, you must know at least one node in the swarm. How to obtain the nodes is outside of the scope of the DHT application currently. One you know about a couple of nodes, you can ping them to insert them into the DHT routing table:
 
 	[dht:ping({IP, Port}) || {IP, Port} <- Peers]
 	
